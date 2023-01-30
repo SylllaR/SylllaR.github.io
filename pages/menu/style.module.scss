@@ -1,14 +1,11 @@
 @import '../../styles/variables';
 
 .cards {
-  //margin: auto;
   margin-top: 35px;
   display: flex;
   flex-direction: row;
-  //align-items: center;
   overflow: hidden;
-  min-width: 990px;
-  max-width: 990px;
+  width: 990px;
   height: 75vh;
   overflow-y: auto;
 
@@ -18,8 +15,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 0 15px;
-    min-width: 960px;
-    max-width: 960px;
+    min-width: 98%;
     gap: 30px;
     transition: transform 0.7s ease;
   }
