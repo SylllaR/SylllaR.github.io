@@ -2,7 +2,6 @@
   "name": "react-ts",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://sylllar.github.io",
   "dependencies": {
     "@syncfusion/ej2-react-navigations": "^20.4.44",
     "@types/react": "^18.0.8",
@@ -19,9 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy1": "gh-pages -b main -d build",
-    "predeploy": "npm run build",
-    "deploy": "predeploy && deploy1"
+    "deploy": "gh-pages -b main -d build",
+    "predeploy": "npm run build"
   },
   "devDependencies": {
     "react-scripts": "latest",

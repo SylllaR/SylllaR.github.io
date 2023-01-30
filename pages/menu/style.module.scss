@@ -31,6 +31,7 @@
   flex-direction: row;
   align-items: center;
   margin-top: 100px;
+  height: 25px;
   color: $color-text-white;
   list-style: none;
   gap: 20px;
@@ -69,6 +70,7 @@
       color: $color-red;
     }
     opacity: 0;
+    cursor: default;
   }
 
   &:hover {
