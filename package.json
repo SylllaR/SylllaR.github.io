@@ -19,8 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -b main -d build",
-    "predeploy": "npm run build"
+    "deploy1": "gh-pages -b main -d build",
+    "predeploy": "npm run build",
+    "deploy": "predeploy && deploy1"
   },
   "devDependencies": {
     "react-scripts": "latest",
